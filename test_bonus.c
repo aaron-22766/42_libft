@@ -6,7 +6,7 @@
 /*   By: arabenst <arabenst@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/28 16:02:57 by arabenst          #+#    #+#             */
-/*   Updated: 2022/10/31 15:44:01 by arabenst         ###   ########.fr       */
+/*   Updated: 2022/12/08 13:18:45 by arabenst         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,9 @@ void	ft_printlist(t_list *lst)
 	temp = lst;
 	while (temp != NULL)
 	{
-		printf("%s - ", temp->content);
+		printf("%s", temp->content);
+		if (temp->next)
+			printf(" - ");
 		temp = temp->next;
 	}
 	printf("\n");
