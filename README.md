@@ -18,6 +18,7 @@ Collection of useful functions and reimlementations of different library's funct
 | ft_strnstr         | Locates the first occurrence of ’needle’ in ’haystack’, within ’len’ characters                                       |
 | ft_strdup          | Allocates a copy of ’s1’                                                                                              |
 | ft_substr          | Allocates a sub-string from the string ’s’                                                                            |
+| ft_strjoin         | Allocates new string, which is the result of the concatenation of ’s1’ and ’s2’                                       |
 | ft_strtrim         | Allocates a copy of ’s1’ with all characters specified in ’set’ removed from the beginning and the end of the string. |
 | ft_split           | Splits ’s’ using the character ’c’ as a delimiter                                                                     |
 | ft_strmapi         | Applies the function ’f’ to each character of ’s’, returning new string                                               |
