@@ -20,7 +20,7 @@
 
 ---
 
-## About
+## 🗣 About
 
 > This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.
 
@@ -32,7 +32,42 @@
 >> * Imperative programming
 >> * Rigor
 
-## Mandatory
+## 🛠 Usage
+
+### Requirements
+
+The library is written in C language and thus needs the **`gcc` compiler** and some standard **C libraries** to run.
+
+### Instructions
+
+**1. Compiling the library**
+
+To compile the library, run:
+
+```shell
+$ cd path/to/libft && make
+```
+
+**2. Using it in your code**
+
+To use the library functions in your code, simply include its header:
+
+```C
+#include "libft.h"
+```
+
+**3. Link your program with libft.a**
+
+```Makefile
+LIBFT_DIR = libftFolder
+LIBFT = $(LIBFT_DIR)/libft.a
+$(NAME): $(LIBFT)
+	gcc $(LIBFT) $(MY_SRCS) ...
+$(LIBFT):
+	make -C $(LIBFT_DIR)
+```
+
+## Functions explained
 
 ### string
 | Function           | Description                                                                                                           |
@@ -90,9 +125,7 @@
 | ft_isprint         | Checks character for a printable character           |
 | ft_isascii         | Checks character for an ascii character              |
 
-## Bonus
-
-### linked list
+### linked list (bonus)
 | Function        | Description                                                                                            |
 |-----------------|--------------------------------------------------------------------------------------------------------|
 | ft_lstnew       | Allocates and returns a new node                                                                       |
