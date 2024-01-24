@@ -1,6 +1,43 @@
-# Libft
+<h1 align="center">
+	<p>
+	LIBFT
+	</p>
+	<img src="https://github.com/ayogun/42-project-badges/blob/main/badges/libftm.png">
+</h1>
 
-Collection of useful functions and reimlementations of different library's functions.
+<p align="center">
+	<b>Your very first own library</b><br>
+  Summary:<br>
+  This project is about coding a C library.<br>
+  It will contain a lot of general purpose functions your programs will rely upon.<br>
+</p>
+
+<div style="display: flex; justify-content: space-between; margin: 20px;">
+	<div style="width: 45%; background-color: #333; padding: 10px; color: white;">
+		<h2>Keywords</h2>
+		<ul>
+			<li>Unix logic</li>
+		</ul>
+	</div>
+
+	<div style="width: 45%; background-color: #333; padding: 10px; color: white;">
+		<h2>Skills</h2>
+		<ul>
+			<li>Algorithms & AI</li>
+			<li>Imperative programming</li>
+			<li>Rigor</li>
+		</ul>
+	</div>
+</div>
+
+<p align="center">
+	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/aaron-22766/42_libft?color=lightblue" />
+	<img alt="Code language count" src="https://img.shields.io/github/languages/count/aaron-22766/42_libft?color=yellow" />
+	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/aaron-22766/42_libft?color=blue" />
+	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aaron-22766/42_libft?color=green" />
+</p>
+
+---
 
 ## Mandatory
 
