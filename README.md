@@ -49,7 +49,7 @@ To use the library functions in your code, simply include its header:
 **3. Link your program with libft.a**
 
 ```Makefile
-LIBFT_DIR = pathToLibft
+LIBFT_DIR = path/to/libft
 LIBFT = $(LIBFT_DIR)/libft.a
 
 $(NAME): $(LIBFT)
