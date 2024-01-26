@@ -59,7 +59,7 @@ $(LIBFT):
 	make -C $(LIBFT_DIR)
 ```
 
-## Functions explained
+## 💬 Description
 
 ### string
 | Function           | Description                                                                                                           |
