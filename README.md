@@ -6,9 +6,7 @@
 </h1>
 
 <p align="center">
-	<b><i>Your very first own library</i>i></b><br><br>
-  	This project is about coding a C library.<br>
-  	It will contain a lot of general purpose functions your programs will rely upon.<br>
+	<b><i>Your very first own library</i></b><br><br>
 </p>
 
 <p align="center">
@@ -22,7 +20,7 @@
 
 ## 🗣 About
 
-This project is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.
+This project is about coding a C library. It will contain a lot of general purpose functions your programs will rely upon. It is your very first project as a student at 42. You will need to recode a few functions of the C standard library as well as some other utility functions that you will use during your whole cursus.
 
 ## 🛠 Usage
 
